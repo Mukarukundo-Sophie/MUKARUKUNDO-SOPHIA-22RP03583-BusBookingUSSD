@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS seats (
     FOREIGN KEY (route_id) REFERENCES routes(route_id)
 );
 
--- Insert sample routes for Rwanda
+-- Insert sample routes for Rwanda FOR TESTING
 INSERT INTO routes (from_location, to_location, departure_time, price, available_seats) VALUES
 ('Kigali', 'Huye', '08:00:00', 2500.00, 30),
 ('Kigali', 'Musanze', '09:00:00', 3000.00, 30),
